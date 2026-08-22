@@ -6,11 +6,7 @@ import { config } from "./config";
 import { confetti } from "./lib/confetti";
 import { fx, music } from "./lib/music";
 
-const quickGifts = [
-  { icon: "pizza", label: "Pizza treat" },
-  { icon: "game", label: "Extra game time" },
-  { icon: "movie", label: "Movie night" },
-];
+const quickGifts = [{ label: "Vaiya basay asle tapor gift paba 😌" }];
 
 export default function App() {
   const [opened, setOpened] = useState(false);
@@ -220,7 +216,7 @@ export default function App() {
                     className="relative mt-8"
                   >
                     <p className="font-display mb-4 text-lg text-amber-200">Your birthday treats</p>
-                    <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+                    <div className="mx-auto grid max-w-md grid-cols-1 gap-3">
                       {quickGifts.map((gift, index) => (
                         <motion.div
                           key={gift.label}
