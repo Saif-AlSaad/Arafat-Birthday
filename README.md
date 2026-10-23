@@ -135,7 +135,6 @@ Your card will be live at:
 
 ---
 
-## 💡 Tip
-
-Music only starts when the visitor taps the "Play song" button — browsers require a
-click before playing audio. Open the card **for** your brother and press play for him!
+## Author 
+*Saif Al Saad* <br>
+*Software Engineering*
